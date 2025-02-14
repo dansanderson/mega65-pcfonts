@@ -163,11 +163,16 @@ def petcat_to_prg(data, spec, fdata):
     return prgdata
 
 
+def add_prg_header(data, spec, fdata):
+    return b'\0\0' + data
+
+
 FILE_FORMATS = {
     '.prg': {'type': 'PRG'},
     '.seq': {'type': 'SEQ'},
     '.txt': {'type': 'SEQ', 'converter': ascii_to_petscii},
     '.bas': {'type': 'PRG', 'converter': petcat_to_prg},
+    '.tcr': {'type': 'PRG', 'converter': add_prg_header},
 }
 
 
