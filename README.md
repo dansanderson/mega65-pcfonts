@@ -150,9 +150,7 @@ Byte      Charset address
 
 The Oldschool PC Font Resource distributes PC fonts in several formats. For our purposes, the most useful format is the `.FON` Windows font file, which in this case are all bitmap fonts in their original resolutions.
 
-I used [dewinfont](https://github.com/juanitogan/mkwinfont) by Github user juanitogan, based on work by [Simon Tatham](https://www.chiark.greenend.org.uk/~sgtatham/fonts/). This Python script converts `.FON` files to easy-to-read text files with a `.fb` extension.
-
-My script, `fbtotcr.py`, converts these files to TCR files. It only works on 8x16 fonts with 256 characters. The script makes both the 128-char and 256-char versions. I don't intend to polish this into a useful tool or support it, but you're welcome to mess with it.
+I wrote a Python script, `fontotcr.py`, that converts these files to TCR files. It is based on [dewinfont](https://github.com/juanitogan/mkwinfont) by [Simon Tatham](https://www.chiark.greenend.org.uk/~sgtatham/fonts/), updated by Github user juanitogan. `fontotcr.py` only works on 8x16 fonts with 256 characters. It makes both the 128-char and 256-char versions. I don't intend to polish this into a useful tool or support it, but you're welcome to mess with it.
 
 ## License
 
