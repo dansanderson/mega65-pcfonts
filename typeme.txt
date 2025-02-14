@@ -1,0 +1,15 @@
+This disk contains 43 fonts from the Oldschool PC Font Resource v2.2,
+rendered as MEGA65 Tall ChaRacter (TCR) character sets.
+  https://int10h.org/oldschool-pc-fonts/
+
+The Oldschool PC Font Resource is free to use under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+  https://creativecommons.org/licenses/by-sa/4.0/
+  https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff
+
+See the README.md file included with the distribution for more information.
+  https://github.com/dansanderson/mega65-pcfonts
+
+To browse these fonts on your MEGA65:
+
+run "*"
