@@ -21,53 +21,52 @@ There are two TCR files for each font:
 
 I attempted to locate ASCII-style characters at the corresponding screen codes used for PETSCII, such that ASCII text could be displayed without changes. I don't know if PC graphics characters ended up in useful places. [Feedback welcome!](mailto:contact@dansanderson.com) I have also included the Python script I used to produce these from the original `.FON` files, so you can re-order them yourself.
 
-| 8x16 Font | 128-char TCR file | 256-char TCR file |
-|------|-------------------|-------------------|
-| [ACM VGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?acm_vga_8x16) | `ACM_VGA.tcr` | `ACM_VGA_all.tcr` |
-| [AT&T PC6300](https://int10h.org/oldschool-pc-fonts/fontlist/font?att_pc6300) | `ATT_PC6300.tcr` | `ATT_PC6300_all.tcr` |
-| [ATI](https://int10h.org/oldschool-pc-fonts/fontlist/font?ati_8x16) | `ATI.tcr` | `ATI_all.tcr` |
-| [CL EagleII](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_eagleii_8x16) | `CL_EagleII.tcr` | `CL_EagleII_all.tcr` |
-| [CL EagleIII](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_eagleiii_8x16) | `CL_EagleIII.tcr` | `CL_EagleIII_all.tcr` |
-| [CL Stingray 0](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_stingray_8x16) | `CL_Stingray_0.tcr` | `CL_Stingray_0_all.tcr` |
-| [CL Stingray 1](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_stingray_8x16) | `CL_Stingray_1.tcr` | `CL_Stingray_1_all.tcr` |
-| [Compaq Port3](https://int10h.org/oldschool-pc-fonts/fontlist/font?compaq_port3) | `Compaq_Port3.tcr` | `Compaq_Port3_all.tcr` |
-| [CompaqThin](https://int10h.org/oldschool-pc-fonts/fontlist/font?compaqthin_8x16) | `CompaqThin.tcr` | `CompaqThin_all.tcr` |
-| [Compis](https://int10h.org/oldschool-pc-fonts/fontlist/font?compis) | `Compis.tcr` | `Compis_all.tcr` |
-| [DOS/V re. ANK16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_re_ank16) | `DOS-V_re_ANK16.tcr` | `DOS-V_re_ANK16_all.tcr` |
-| [DOS/V re. JPN16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_re_jpn16) | `DOS-V_re_JPN16.tcr` | `DOS-V_re_JPN16_all.tcr` |
-| [DOS/V re. PRC16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_re_prc16) | `DOS-V_re_PRC16.tcr` | `DOS-V_re_PRC16_all.tcr` |
-| [DOS/V TWN16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_twn16) | `DOS-V_TWN16.tcr` | `DOS-V_TWN16_all.tcr` |
-| [EverexME](https://int10h.org/oldschool-pc-fonts/fontlist/font?everexme_8x16) | `EverexME.tcr` | `EverexME_all.tcr` |
-| [FMTowns](https://int10h.org/oldschool-pc-fonts/fontlist/font?fmtowns_re_8x16) | `FMTowns_re.tcr` | `FMTowns_re_all.tcr` |
-| [IBM DOS ISO8](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_dos_iso8) | `IBM_DOS_ISO8.tcr` | `IBM_DOS_ISO8_all.tcr` |
-| [IBM Model30r0](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model30r0) | `IBM_Model30r0.tcr` | `IBM_Model30r0_all.tcr` |
-| [IBM Model3x Alt 1](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt1) | `IBM_Model3x_alt1.tcr` | `IBM_Model3x_alt1_all.tcr` |
-| [IBM Model3x Alt 2](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt2) | `IBM_Model3x_alt2.tcr` | `IBM_Model3x_alt2_all.tcr` |
-| [IBM Model3x Alt 3](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt3) | `IBM_Model3x_alt3.tcr` | `IBM_Model3x_alt3_all.tcr` |
-| [IBM Model3x Alt 4](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt4) | `IBM_Model3x_alt4.tcr` | `IBM_Model3x_alt4_all.tcr` |
-| [IBM PGC](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_pgc) | `IBM_PGC.tcr` | `IBM_PGC_all.tcr` |
-| [IBM VGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_8x16) | `IBM_VGA.tcr` | `IBM_VGA_all.tcr` |
-| [IGS VGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?igs_vga_8x16) | `IGS_VGA.tcr` | `IGS_VGA_all.tcr` |
-| [MBytePC230](https://int10h.org/oldschool-pc-fonts/fontlist/font?mbytepc230_8x16) | `MBytePC230.tcr` | `MBytePC230_all.tcr` |
-| [NEC APC3](https://int10h.org/oldschool-pc-fonts/fontlist/font?nec_apc3_8x16) | `NEC_APC3.tcr` | `NEC_APC3_all.tcr` |
-| [Nix8810 M15](https://int10h.org/oldschool-pc-fonts/fontlist/font?nix8810_m15) | `Nix8810_M15.tcr` | `Nix8810_M15_all.tcr` |
-| [Nix8810 M16](https://int10h.org/oldschool-pc-fonts/fontlist/font?nix8810_m16) | `Nix8810_M16.tcr` | `Nix8810_M16_all.tcr` |
-| [OlivettiThin](https://int10h.org/oldschool-pc-fonts/fontlist/font?olivettithin_8x16) | `OlivettiThin.tcr` | `OlivettiThin_all.tcr` |
-| [PhoenixEGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?phoenixega_8x16) | `PhoenixEGA.tcr` | `PhoenixEGA_all.tcr` |
-| [PhoenixVGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?phoenixvga_8x16) | `PhoenixVGA.tcr` | `PhoenixVGA_all.tcr` |
-| [Robotron A7100](https://int10h.org/oldschool-pc-fonts/fontlist/font?robotron_a7100) | `Robotron_A7100.tcr` | `Robotron_A7100_all.tcr` |
-| [Sigma RM](https://int10h.org/oldschool-pc-fonts/fontlist/font?sigma_rm_8x16) | `Sigma_RM.tcr` | `Sigma_RM_all.tcr` |
-| [SperryPC](https://int10h.org/oldschool-pc-fonts/fontlist/font?sperrypc_8x16) | `SperryPC.tcr` | `SperryPC_all.tcr` |
-| [Tandy2K](https://int10h.org/oldschool-pc-fonts/fontlist/font?tandy2k) | `Tandy2K.tcr` | `Tandy2K_all.tcr` |
-| [Tandy2K G](https://int10h.org/oldschool-pc-fonts/fontlist/font?tandy2k_g) | `Tandy2K_G.tcr` | `Tandy2K_G_all.tcr` |
-| [ToshibaSat](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibasat_8x16) | `ToshibaSat.tcr` | `ToshibaSat_all.tcr` |
-| [ToshibaT300](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibat300_8x16) | `ToshibaT300.tcr` | `ToshibaT300_all.tcr` |
-| [ToshibaTxL1](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibatxl1_8x16) | `ToshibaTxL1.tcr` | `ToshibaTxL1_all.tcr` |
-| [ToshibaTxL2](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibatxl2_8x16) | `ToshibaTxL2.tcr` | `ToshibaTxL2_all.tcr` |
-| [Trident](https://int10h.org/oldschool-pc-fonts/fontlist/font?trident_8x16) | `Trident.tcr` | `Trident_all.tcr` |
-| [TridentEarly](https://int10h.org/oldschool-pc-fonts/fontlist/font?tridentearly_8x16) | `TridentEarly.tcr` | `TridentEarly_all.tcr` |
-| [Verite](https://int10h.org/oldschool-pc-fonts/fontlist/font?verite_8x16) | `Verite.tcr` | `Verite_all.tcr` |
-
+| 8x16 Font | 128-char TCR file | 256-char TCR file | 128-char on D81 | 256-char on D81 |
+|-----------|-------------------|-------------------|-----------------|-----------------|
+| [ACM VGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?acm_vga_8x16) | `ACM_VGA.tcr` | `ACM_VGA_all.tcr` | `acmvga.tcr` | `acmvga-a.tcr` |
+| [AT&T PC6300](https://int10h.org/oldschool-pc-fonts/fontlist/font?att_pc6300) | `ATT_PC6300.tcr` | `ATT_PC6300_all.tcr` | `attpc6300.tcr` | `attpc6300-a.tcr` |
+| [ATI](https://int10h.org/oldschool-pc-fonts/fontlist/font?ati_8x16) | `ATI.tcr` | `ATI_all.tcr` | `ati.tcr` | `ati-a.tcr` |
+| [CL EagleII](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_eagleii_8x16) | `CL_EagleII.tcr` | `CL_EagleII_all.tcr` | `cleagleii.tcr` | `cleagleii-a.tcr` |
+| [CL EagleIII](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_eagleiii_8x16) | `CL_EagleIII.tcr` | `CL_EagleIII_all.tcr` | `cleagleiii.tcr` | `cleagleiii-a.tcr` |
+| [CL Stingray 0](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_stingray_8x16) | `CL_Stingray_0.tcr` | `CL_Stingray_0_all.tcr` | `clstingry0.tcr` | `clstingry0-a.tcr` |
+| [CL Stingray 1](https://int10h.org/oldschool-pc-fonts/fontlist/font?cl_stingray_8x16) | `CL_Stingray_1.tcr` | `CL_Stingray_1_all.tcr` | `clstingry1.tcr` | `clstingry1-a.tcr` |
+| [Compaq Port3](https://int10h.org/oldschool-pc-fonts/fontlist/font?compaq_port3) | `Compaq_Port3.tcr` | `Compaq_Port3_all.tcr` | `compaqprt3.tcr` | `compaqprt3-a.tcr` |
+| [CompaqThin](https://int10h.org/oldschool-pc-fonts/fontlist/font?compaqthin_8x16) | `CompaqThin.tcr` | `CompaqThin_all.tcr` | `compaqthin.tcr` | `compaqthin-a.tcr` |
+| [Compis](https://int10h.org/oldschool-pc-fonts/fontlist/font?compis) | `Compis.tcr` | `Compis_all.tcr` | `compis.tcr` | `compis-a.tcr` |
+| [DOS/V re. ANK16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_re_ank16) | `DOS-V_re_ANK16.tcr` | `DOS-V_re_ANK16_all.tcr` | `dosvrank16.tcr` | `dosvrank16-a.tcr` |
+| [DOS/V re. JPN16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_re_jpn16) | `DOS-V_re_JPN16.tcr` | `DOS-V_re_JPN16_all.tcr` | `dosvrjpn16.tcr` | `dosvrjpn16-a.tcr` |
+| [DOS/V re. PRC16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_re_prc16) | `DOS-V_re_PRC16.tcr` | `DOS-V_re_PRC16_all.tcr` | `dosvrprc16.tcr` | `dosvrprc16-a.tcr` |
+| [DOS/V TWN16](https://int10h.org/oldschool-pc-fonts/fontlist/font?dos-v_twn16) | `DOS-V_TWN16.tcr` | `DOS-V_TWN16_all.tcr` | `dosvtwn16.tcr` | `dosvtwn16-a.tcr` |
+| [EverexME](https://int10h.org/oldschool-pc-fonts/fontlist/font?everexme_8x16) | `EverexME.tcr` | `EverexME_all.tcr` | `everexme.tcr` | `everexme-a.tcr` |
+| [FMTowns](https://int10h.org/oldschool-pc-fonts/fontlist/font?fmtowns_re_8x16) | `FMTowns_re.tcr` | `FMTowns_re_all.tcr` | `fmtownsre.tcr` | `fmtownsre-a.tcr` |
+| [IBM DOS ISO8](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_dos_iso8) | `IBM_DOS_ISO8.tcr` | `IBM_DOS_ISO8_all.tcr` | `ibmdosiso8.tcr` | `ibmdosiso8-a.tcr` |
+| [IBM Model30r0](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model30r0) | `IBM_Model30r0.tcr` | `IBM_Model30r0_all.tcr` | `ibmmod30r0.tcr` | `ibmmod30r0-a.tcr` |
+| [IBM Model3x Alt 1](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt1) | `IBM_Model3x_alt1.tcr` | `IBM_Model3x_alt1_all.tcr` | `ibmmod3xa1.tcr` | `ibmmod3xa1-a.tcr` |
+| [IBM Model3x Alt 2](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt2) | `IBM_Model3x_alt2.tcr` | `IBM_Model3x_alt2_all.tcr` | `ibmmod3xa2.tcr` | `ibmmod3xa2-a.tcr` |
+| [IBM Model3x Alt 3](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt3) | `IBM_Model3x_alt3.tcr` | `IBM_Model3x_alt3_all.tcr` | `ibmmod3xa3.tcr` | `ibmmod3xa3-a.tcr` |
+| [IBM Model3x Alt 4](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_model3x_alt4) | `IBM_Model3x_alt4.tcr` | `IBM_Model3x_alt4_all.tcr` | `ibmmod3xa4.tcr` | `ibmmod3xa4-a.tcr` |
+| [IBM PGC](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_pgc) | `IBM_PGC.tcr` | `IBM_PGC_all.tcr` | `ibmpgc.tcr` | `ibmpgc-a.tcr` |
+| [IBM VGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_8x16) | `IBM_VGA.tcr` | `IBM_VGA_all.tcr` | `ibmvga.tcr` | `ibmvga-a.tcr` |
+| [IGS VGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?igs_vga_8x16) | `IGS_VGA.tcr` | `IGS_VGA_all.tcr` | `igsvga.tcr` | `igsvga-a.tcr` |
+| [MBytePC230](https://int10h.org/oldschool-pc-fonts/fontlist/font?mbytepc230_8x16) | `MBytePC230.tcr` | `MBytePC230_all.tcr` | `mbytepc230.tcr` | `mbytepc230-a.tcr` |
+| [NEC APC3](https://int10h.org/oldschool-pc-fonts/fontlist/font?nec_apc3_8x16) | `NEC_APC3.tcr` | `NEC_APC3_all.tcr` | `necapc3.tcr` | `necapc3-a.tcr` |
+| [Nix8810 M15](https://int10h.org/oldschool-pc-fonts/fontlist/font?nix8810_m15) | `Nix8810_M15.tcr` | `Nix8810_M15_all.tcr` | `nix8810m15.tcr` | `nix8810m15-a.tcr` |
+| [Nix8810 M16](https://int10h.org/oldschool-pc-fonts/fontlist/font?nix8810_m16) | `Nix8810_M16.tcr` | `Nix8810_M16_all.tcr` | `nix8810m16.tcr` | `nix8810m16-a.tcr` |
+| [OlivettiThin](https://int10h.org/oldschool-pc-fonts/fontlist/font?olivettithin_8x16) | `OlivettiThin.tcr` | `OlivettiThin_all.tcr` | `olivettthn.tcr` | `olivettthn-a.tcr` |
+| [PhoenixEGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?phoenixega_8x16) | `PhoenixEGA.tcr` | `PhoenixEGA_all.tcr` | `phoenixega.tcr` | `phoenixega-a.tcr` |
+| [PhoenixVGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?phoenixvga_8x16) | `PhoenixVGA.tcr` | `PhoenixVGA_all.tcr` | `phoenixvga.tcr` | `phoenixvga-a.tcr` |
+| [Robotron A7100](https://int10h.org/oldschool-pc-fonts/fontlist/font?robotron_a7100) | `Robotron_A7100.tcr` | `Robotron_A7100_all.tcr` | `rbtrna7100.tcr` | `rbtrna7100-a.tcr` |
+| [Sigma RM](https://int10h.org/oldschool-pc-fonts/fontlist/font?sigma_rm_8x16) | `Sigma_RM.tcr` | `Sigma_RM_all.tcr` | `sigmarm.tcr` | `sigmarm-a.tcr` |
+| [SperryPC](https://int10h.org/oldschool-pc-fonts/fontlist/font?sperrypc_8x16) | `SperryPC.tcr` | `SperryPC_all.tcr` | `sperrypc.tcr` | `sperrypc-a.tcr` |
+| [Tandy2K](https://int10h.org/oldschool-pc-fonts/fontlist/font?tandy2k) | `Tandy2K.tcr` | `Tandy2K_all.tcr` | `tandy2k.tcr` | `tandy2k-a.tcr` |
+| [Tandy2K G](https://int10h.org/oldschool-pc-fonts/fontlist/font?tandy2k_g) | `Tandy2K_G.tcr` | `Tandy2K_G_all.tcr` | `tandy2kg.tcr` | `tandy2kg-a.tcr` |
+| [ToshibaSat](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibasat_8x16) | `ToshibaSat.tcr` | `ToshibaSat_all.tcr` | `toshibasat.tcr` | `toshibasat-a.tcr` |
+| [ToshibaT300](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibat300_8x16) | `ToshibaT300.tcr` | `ToshibaT300_all.tcr` | `toshibt300.tcr` | `toshibt300-a.tcr` |
+| [ToshibaTxL1](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibatxl1_8x16) | `ToshibaTxL1.tcr` | `ToshibaTxL1_all.tcr` | `toshibtxl1.tcr` | `toshibtxl1-a.tcr` |
+| [ToshibaTxL2](https://int10h.org/oldschool-pc-fonts/fontlist/font?toshibatxl2_8x16) | `ToshibaTxL2.tcr` | `ToshibaTxL2_all.tcr` | `toshibtxl2.tcr` | `toshibtxl2-a.tcr` |
+| [Trident](https://int10h.org/oldschool-pc-fonts/fontlist/font?trident_8x16) | `Trident.tcr` | `Trident_all.tcr` | `trident.tcr` | `trident-a.tcr` |
+| [TridentEarly](https://int10h.org/oldschool-pc-fonts/fontlist/font?tridentearly_8x16) | `TridentEarly.tcr` | `TridentEarly_all.tcr` | `tridntearl.tcr` | `tridntearl-a.tcr` |
+| [Verite](https://int10h.org/oldschool-pc-fonts/fontlist/font?verite_8x16) | `Verite.tcr` | `Verite_all.tcr` | `verite.tcr` | `verite-a.tcr` |
 
 ## Using TCR files
 
