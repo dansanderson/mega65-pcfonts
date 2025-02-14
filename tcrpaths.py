@@ -4,7 +4,12 @@ di = []
 seen = set()
 for f in fnames:
     has_all = f.endswith('_all.tcr')
-    n = os.path.splitext(f)[0].replace('_all', '').replace('_', '').replace('-', '').lower()
+    n = (
+        os.path.splitext(f)[0]
+        .replace('_all', '')
+        .replace('_', '')
+        .replace('-', '')
+        .lower())
     n = n[:12]
     i = 2
     while n in seen:
