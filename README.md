@@ -24,8 +24,8 @@ There are two TCR files for each font:
 I attempted to locate ASCII-style characters at the corresponding screen codes used for PETSCII, such that ASCII text could be displayed without changes. I don't know if PC graphics characters ended up in useful places. [Feedback welcome!](mailto:contact@dansanderson.com) I have also included the Python script I used to produce these from the original `.FON` files, so you can re-order them yourself.
 
 | 8x16 Font | 128-char TCR file | 128-char on D81 |
-|           | (256-char: `_all.tcr`) | (256-char: `-a.tcr`) |
 |-----------|-------------------|-------------------|
+|           | (256-char: `_all.tcr`) | (256-char: `-a.tcr`) |
 | [ACM VGA](https://int10h.org/oldschool-pc-fonts/fontlist/font?acm_vga_8x16) | `ACM_VGA.tcr` | `acmvga.tcr` |
 | [AT&T PC6300](https://int10h.org/oldschool-pc-fonts/fontlist/font?att_pc6300) | `ATT_PC6300.tcr` | `attpc6300.tcr` |
 | [ATI](https://int10h.org/oldschool-pc-fonts/fontlist/font?ati_8x16) | `ATI.tcr` | `ati.tcr` |
